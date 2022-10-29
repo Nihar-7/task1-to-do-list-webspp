@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    background-color: rgb(106, 13, 106);
+
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(purple, rgb(232, 214, 214));
+
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: auto;
+    padding: 23px;
+    background-color: rgb(106, 13, 106);
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+button {
+    color: purple;
+    background-color: rgb(232, 214, 214);
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+textarea {
+    border: none;
+    padding: 10px;
+    color: purple;
+    font-weight: bolder;
+
+}
+
+#note {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: auto;
+    width: 282px;
+    /* background-color: rgb(171, 143, 197); */
+
+
+}
+
+.cardnotes {
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    background-color: rgb(232, 214, 214);
+    width: 17.6rem;
+    color: purple;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+
+}
+
+i {
+    align-self: center;
+    padding: 3px;
+
+}
+
+.cardnotes:nth-child(odd) {
+    background-color: white;
+}
+
+.cardnotes:hover {
+    background-color: purple;
+    color: aliceblue;
+    border-bottom: 2px solid white;
+
+
+}
